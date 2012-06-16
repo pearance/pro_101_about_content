@@ -5,5 +5,6 @@ package = Pro 101 Defaults (L)
 php = 5.2.4
 version = 7.x-1.0
 project = pro_101_about_content
+dependencies[] = defaultcontent
 features[content][] = about
 features[features_api][] = api:1

@@ -1,6 +1,7 @@
 <?php
 /**
  * @file
+ * Code for the Pro 101 About Content feature.
  */
 
-// Drupal needs this blank file.
+include_once 'pro_101_about_content.features.inc';

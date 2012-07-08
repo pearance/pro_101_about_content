@@ -22,9 +22,9 @@ function pro_101_about_content_context_default_contexts() {
         'about' => 'about',
       ),
     ),
-    'menu' => array(
+    'path' => array(
       'values' => array(
-        'node/2' => 'node/2',
+        'about' => 'about',
       ),
     ),
   );
@@ -40,7 +40,7 @@ function pro_101_about_content_context_default_contexts() {
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
 
   // Translatables
   // Included for use with string extractors like potx.

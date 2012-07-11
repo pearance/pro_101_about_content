@@ -31,9 +31,9 @@ function pro_101_about_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-Professionals-block' => array(
+        'views-Professionals-pro_team_block' => array(
           'module' => 'views',
-          'delta' => 'Professionals-block',
+          'delta' => 'Professionals-pro_team_block',
           'region' => 'content',
           'weight' => '9',
         ),

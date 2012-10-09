@@ -35,7 +35,7 @@ function pro_101_about_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'Professionals-pro_team_block',
           'region' => 'content',
-          'weight' => '9',
+          'weight' => 1,
         ),
       ),
     ),

@@ -17,11 +17,6 @@ function pro_101_about_content_context_default_contexts() {
   $context->description = '';
   $context->tag = 'Pages';
   $context->conditions = array(
-    'defaultcontent' => array(
-      'values' => array(
-        'about' => 'about',
-      ),
-    ),
     'path' => array(
       'values' => array(
         'about' => 'about',
@@ -35,7 +30,7 @@ function pro_101_about_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'Professionals-pro_team_block',
           'region' => 'content',
-          'weight' => '1',
+          'weight' => '30',
         ),
       ),
     ),

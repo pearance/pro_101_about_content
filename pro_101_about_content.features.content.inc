@@ -23,7 +23,7 @@ function pro_101_about_content_content_defaults() {
       'external' => '0',
       'has_children' => '0',
       'expanded' => '0',
-      'weight' => '-39',
+      'weight' => '0',
       'identifier' => 'main-menu:node-name/about',
     ),
     'title' => 'About',
@@ -40,7 +40,7 @@ function pro_101_about_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<div id="about_graphic">
-	<img alt="" class="media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__teaser attr__format__teaser" height="216" src="http://pro101a.platdev.info/sites/pro101a.platdev.info/files/styles/medium/public/natasja1.jpg" title="" typeof="foaf:Image" width="220" />
+	<img alt="" class="media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__teaser attr__format__teaser" src="http://pro101a.platdev.info/sites/pro101a.platdev.info/files/resize/styles/medium/public/natasja1-220x216.jpg" style="width: 220px; height: 216px;" title="" typeof="foaf:Image" />
 </div>
 
 <h2 class="node-title">

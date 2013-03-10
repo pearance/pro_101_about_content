@@ -9,6 +9,7 @@ dependencies[] = context
 dependencies[] = defaultcontent
 dependencies[] = views
 features[content][] = about
+features[content][] = about_masthead
 features[context][] = about
 features[ctools][] = context:context:3
 features[features_api][] = api:1

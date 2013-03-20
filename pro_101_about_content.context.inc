@@ -30,30 +30,30 @@ function pro_101_about_content_context_default_contexts() {
           'module' => 'nodeblock',
           'delta' => 'about_title',
           'region' => 'impact_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'nodeblock-about_masthead' => array(
           'module' => 'nodeblock',
           'delta' => 'about_masthead',
           'region' => 'pre_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'nodeblock-about_image' => array(
           'module' => 'nodeblock',
           'delta' => 'about_image',
           'region' => 'pre_2',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'views-Professionals-pro_team_block' => array(
           'module' => 'views',
           'delta' => 'Professionals-pro_team_block',
           'region' => 'content',
-          'weight' => 1,
+          'weight' => '1',
         ),
       ),
     ),
     'delta' => array(
-      'delta_template' => 'i_beam_layout',
+      'delta_template' => 'i_beam',
     ),
   );
   $context->condition_mode = 1;
